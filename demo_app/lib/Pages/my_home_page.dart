@@ -13,8 +13,8 @@ class _MyHomePageState extends State<MyHomePage> {
   late String nameValue;
   late String phoneValue;
   late String addressValue;
-  late String businessValue;
-  late String deliveryValue;
+  late String businessValue = "Tienda";
+  late String deliveryValue = "No";
   late String webpageValue;
   final formKey = GlobalKey<FormState>();
   
